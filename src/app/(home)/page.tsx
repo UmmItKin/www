@@ -43,6 +43,13 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-8 px-4 border-t border-fd-border">
+        <div className="mx-auto max-w-[var(--fd-layout-width)] text-center text-fd-muted-foreground text-sm">
+          © {new Date().getFullYear()} Z2E Team. All rights reserved.
+        </div>
+      </footer>
     </main>
   );
 }
