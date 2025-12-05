@@ -23,6 +23,7 @@ export function baseOptions(): BaseLayoutProps {
           Z2E
         </>
       ),
+      transparentMode: 'none',
     },
     // see https://fumadocs.dev/docs/ui/navigation/links
     links: [],
